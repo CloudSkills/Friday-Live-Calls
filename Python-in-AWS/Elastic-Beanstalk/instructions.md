@@ -16,5 +16,8 @@
 - AWS CloudFormation stack
 - Domain name
 
-4. clean up the environment
+4. Open webpage
+`eb open`
+
+5. clean up the environment
 `eb terminate cloudskills-flask-env`

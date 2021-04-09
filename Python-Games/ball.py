@@ -12,8 +12,8 @@ import random
 # --- Set up the constants
 
 # Size of the screen
-SCREEN_WIDTH = 600
-SCREEN_HEIGHT = 600
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 800
 SCREEN_TITLE = "Bouncing Balls Example"
 
 
@@ -37,7 +37,7 @@ def make_ball():
     ball = Ball()
 
     # Size of the ball
-    ball.size = random.randrange(10, 30)
+    ball.size = random.randrange(50, 60)
 
     # Starting position of the ball.
     # Take into account the ball size so we don't spawn on the edge.
